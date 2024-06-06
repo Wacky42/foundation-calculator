@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    gap: 10px
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 512px;
+    height: 128px;
+    border: 2px solid black;
+    font-size: 64px;
+    margin-top: 25vh;
+}
+
+.buttonContainer {
+    display: flex;
+    width: 512px;
+    border: 2px solid black;
+
+}
+
+.numbers {
+    display: flex;
+    width: 384px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers button {
+    width: 33.3%;
+    height: 128px;
+}
+
+.operators {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+}
+
+.operators button {
+    width: 100%;
+    height: 128px;
+}
+
+
+.misc {
+    display: flex;
+    width: 256px;
+}
+
+.misc button {
+    width: 50%;
+    height: 128px;
+}
+
