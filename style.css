@@ -7,6 +7,10 @@ body {
     gap: 10px
 }
 
+.statement {
+    display: flex;
+}
+
 .display {
     display: flex;
     justify-content: flex-end;
